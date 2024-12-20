@@ -1,0 +1,48 @@
+body{
+    background-image: url("infrenumTheme.jpg");
+    background-size: cover;
+}
+
+#LHead{
+    display: flex;
+    justify-content: center;
+}
+
+#Logo{
+    height: 200px;
+    padding-bottom: 30px;
+}
+
+#BHead{
+    display: flex;
+    justify-content: center;
+}
+
+#Menu{
+    display: grid;
+    justify-content: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+}
+
+a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 1px black, 0px 0px 2px black, 0px 0px 3px black,0px 0px 4px black;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:hover{
+    color: yellow;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+a:not(:hover){
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+}
