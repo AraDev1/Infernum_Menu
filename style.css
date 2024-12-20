@@ -1,5 +1,5 @@
 body{
-    background-image: url("infrenumTheme.jpg");
+    background-image: url("infernumTheme.jpg");
     background-size: cover;
 }
 
@@ -21,7 +21,6 @@ body{
 #Menu{
     display: grid;
     justify-content: center;
-    border: 1px solid black;
     width: 300px;
     height: 350px;
 }
