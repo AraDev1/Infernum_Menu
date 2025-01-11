@@ -1,4 +1,4 @@
-body{
+#body{
     background-image: url("infernumTheme.jpg");
     background-size: cover;
 }
@@ -9,6 +9,7 @@ body{
 }
 
 #Logo{
+    transform: rotate(10deg);
     height: 200px;
     padding-bottom: 30px;
 }
@@ -25,23 +26,76 @@ body{
     height: 350px;
 }
 
-a{
+#FHead{
+    position: fixed;
+    bottom: 0;
+    align-items: end;
+    justify-content:space-between;
+    display:flex;
+    height: 133px;
+    width: 100%; 
+}
+
+#Tree{
+    background-size: cover;
+    width: 40px;
+}
+
+#Sources{
+    width: 33%;
+}
+
+#MSwitch{ 
+    justify-content: center;
+    display: flex;
+    width: 33%; 
+}
+
+#Version{
+    display: flex;
+    justify-content: end;
+    width: 33%;
+}
+
+
+.MenuA{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 0px 0px 1px black, 0px 0px 2px black, 0px 0px 3px black,0px 0px 4px black;
-    color:white;
+    color:gray;
     font-size: 25px;
     text-align: center;
     cursor: pointer;
 }
 
-a:hover{
+.MenuA:hover{
     color: yellow;
     font-size: 35px;
     transition: 0.5s;
 }
 
-a:not(:hover){
-    color: white;
+.MenuA:not(:hover){
+    color: rgb(191, 178, 178);
     font-size: 25px;
     transition: 0.3s;
+}
+
+#SwitchA{
+    text-align: center;
+    color:rgb(191, 178, 178) ;
+}
+
+#SwitchA:hover{
+    cursor: pointer;
+    color: rgb(200, 200, 4);
+}
+
+#VersionA{
+    text-decoration: none;
+    color:rgb(216, 216, 216) ;
+    font-size: 20px;
+}
+
+#VersionA:hover{
+    cursor: pointer;
+    color:rgb(200, 200, 4);
 }

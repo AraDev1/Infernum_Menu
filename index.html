@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="script.js"></script>
     <title>Document</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body">
     <div id="LHead">
         <img id="Logo" src="infernumLogo.jpg">
      </div>
     <div id="BHead">
         <div id="Menu">
-            <a>Одиночная Игра</a>
-            <a>Мультиплеер</a>
-            <a>Достижения</a>
-            <a>Мастерская</a>
-            <a>Настройки</a>
-            <a>Авторы</a>
-            <a>Выход</a>
+            <a class="MenuA">Одиночная Игра</a>
+            <a class="MenuA">Мультиплеер</a>
+            <a class="MenuA">Достижения</a>
+            <a class="MenuA">Мастерская</a>
+            <a class="MenuA">Настройки</a>
+            <a class="MenuA">Авторы</a>
+            <a class="MenuA">Выход</a>
         </div>
     </div>
-    <div id="FHead"></div>
+    <div id="FHead">
+        <div id="Sources"><img id="Tree" src="terrariaTree.png"></div>
+        <div id="MSwitch"><a id="SwitchA" onclick="menuSwitch()">Переключить тему меню: Infernum Style</a></div>
+        <div id="Version"><a id="VersionA" href="https://github.com/tModLoader/tModLoader/wiki/tModLoader-guide-for-players#beta-branches">Переключить на другую версию tModLoader</a></div>
+    </div>
 </body>
 </html>
